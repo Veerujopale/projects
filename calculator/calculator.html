@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js">Javascript</script>
+</head>
+<body>
+   
+   
+    <div></div>
+   <input type="text" class="dsp_bg" id="result">
+    <div></div>
+    <div></div>
+    <div class="outlet">
+
+        
+      
+        <input type="button" value="AC" class="numsa" id="cl" onclick="clearScreen()"></input>
+        <input type="button" value="C" class="numsb" id="ccl" onclick="clear()"></input>
+        <input type="button" value="%" class="numsc" id="per" onclick="takeValue()"></input>
+        <input type="button" value="/" class="numsd" id="divi"onclick="takeValue('/')"></input>
+
+        
+      
+        <input type="button" value="9" class="nums9" id="n9" onclick="takeValue('9')"></input>
+        <input type="button" value="8" class="nums8" id="n8" onclick="takeValue('8')"></input>
+        <input type="button" value="7" class="nums7" id="n7" onclick="takeValue('7')"></input>
+        <input type="button" value="X" class="numse" id="nX" onclick="takeValue('*')"></input>
+
+     
+     
+        <input type="button" value="6" class="nums6" id="n6" onclick="takeValue('6')"></input>
+        <input type="button" value="5" class="nums5" id="n5" onclick="takeValue('5')"></input>
+        <input type="button" value="4" class="nums4" id="n4" onclick="takeValue('4')"></input>
+        <input type="button" value="-" class="numsf" id="n_" onclick="takeValue('-')"></input>
+        
+        <input type="button" value="3" class="nums3" id="n3" onclick="takeValue('3')"></input>
+        <input type="button" value="2" class="nums2" id="n2" onclick="takeValue('2')"></input>
+        <input type="button" value="1" class="nums1" id="n1" onclick="takeValue('1')"></input>
+        <input type="button" value="+" class="numsg"  onclick="takeValue('+')" id="ad"></input>
+
+          
+        <input type="button" value="." class="numsdot" onclick="takeValue('.')" id="dot"></input>
+        <input type="button" value="0" class="nums0" onclick="takeValue('0')" id="zero"></input>
+
+        <input type="button" value="=" class="numsh" onclick="solve()" id="ans"></input>
+      
+    </div>
+    <div>
+      
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    
+</body>
+</html>

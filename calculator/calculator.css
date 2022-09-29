@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(255, 255, 255) ;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .8fr 3fr .2fr;
+    gap: 10px;
+
+}
+
+.outlet{
+    background-color: #293462;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: "numsa numsb numsc numsd"
+                         "nums9 nums8 nums7 numse"
+                         "nums6 nums5 nums4 numsf"
+                         "nums3 nums2 nums1 numsg"
+                         "numsdot nums0 numsh numsh";
+    gap: 14px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 14px;
+
+}
+input{
+    background-color: #1CD6CE;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: aliceblue;
+
+    
+    border-radius: 20px;
+    box-shadow:rgb(49, 215, 230) 0px 0px 2px 2px;
+}
+.numsa{
+    grid-area: numsa;
+}
+
+.numsb {
+    grid-area: numsb}
+.numsc {
+    grid-area: numsc;}
+.numsd{
+    grid-area:numsd ;}
+.nums9 {
+    grid-area:nums9 ;}
+.nums8 {
+    grid-area: nums8;}
+.nums7 {
+    grid-area: nums7;}
+.numse{
+    grid-area: numse;}
+.nums6 {
+    grid-area: nums6;}
+.nums5 {
+    grid-area: nums5;}
+.nums4 {
+    grid-area:nums4 ;}
+.numsf{
+    grid-area:numsf ;}
+.nums3 {
+    grid-area: nums3;}
+.nums2 {
+    grid-area:nums2;}
+.nums1 {
+    grid-area:nums1;}
+.numsg{
+    grid-area:numsg;}
+.numsdot {
+    grid-area: numsdot;}
+.nums0 {
+    grid-area:nums0;}
+.numsh {
+    grid-area:numsh;
+    
+}
+.dsp_bg{
+    margin-top: 10px;
+    background-color: #293462;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    gap: 20px;
+}
+.dsp{
+    margin: 10px 10px 10px 10px;
+    background: rgba(0, 0, 0, 0.417);
+    border-radius: 20px;
+}
+
